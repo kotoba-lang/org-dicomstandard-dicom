@@ -1,0 +1,8 @@
+{
+  "name": "org-dicomstandard-dicom",
+  "private": true,
+  "description": "DICOM PS3.10 file meta header and PS3.5 data element encoding in portable .cljc",
+  "scripts": {
+    "test:cljs": "nbb --classpath \"$(clojure -A:cljs -Spath)\" scripts/verify-cljs.cljs"
+  }
+}
