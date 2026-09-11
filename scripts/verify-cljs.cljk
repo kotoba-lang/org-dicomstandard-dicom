@@ -10,7 +10,7 @@
 ;; "whitespace" differs from the JVM's `String.trim()` for NUL. Both traps
 ;; are invisible from the JVM run alone.
 ;;
-;;   nbb --classpath "$(clojure -A:cljs -Spath)" scripts/verify-cljs.cljs
+;;   nbb --classpath "$(clojure -A:cljs -Spath)" scripts/verify-cljs.cljk
 (ns verify-cljs
   (:require [clojure.test :as t]
             [dicom.core-test]))
